@@ -1,0 +1,52 @@
+.card{
+    /* add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3S;
+    background-color: darkgrey;
+    text-align: center;
+    padding: 100PX;
+    width: 500px;
+    height: 500px;
+    border: 1PX beige;
+}
+.container{
+    display: flex;
+    background-color: #ecb718;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.card-container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    gap: 20px;
+    padding: 20px;
+    border-radius:10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 200px;
+    height: 150px;
+}
+.image-nav{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+}
+*{
+    margin: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+}
